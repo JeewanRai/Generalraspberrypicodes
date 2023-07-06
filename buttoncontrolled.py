@@ -21,3 +21,5 @@ while True:
     GPIO.wait_for_edge(buttonPin, RISING) #waits for the button to get released
     GPIO.output(ledPin, GPIO.LOW)
 GPIO.cleanup() #clean up GPIO pin to default setting
+
+m
